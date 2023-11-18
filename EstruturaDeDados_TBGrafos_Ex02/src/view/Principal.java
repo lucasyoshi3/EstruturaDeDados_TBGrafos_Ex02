@@ -9,7 +9,6 @@ public class Principal {
 		Grafos control=new Grafos();
 		System.out.println("Valor de n: ");
 		int n=sc.nextInt();
-		n=3;
 		int [][] matriz=new int[n][n];
 		control.preencher(matriz);
 		control.printMatriz(matriz);
